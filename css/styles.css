@@ -1,0 +1,21 @@
+
+:root {
+  --primary: #FF6363;
+  --bg-dark: #111;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+#hero {
+  height: 80vh;
+  background: url('../assets/hero.jpg') center/cover no-repeat;
+  color: white;
+}
+#hero h1, #hero p { text-shadow: 0 2px 4px rgba(0,0,0,0.6); }
+section h2 { margin-bottom: 2rem; font-weight: 600; }
+.card img { height: 240px; object-fit: cover; }
+.card:hover { transform: translateY(-5px); transition: 0.3s; }
+#contact .form-control { border-radius: 0; }
+.btn-primary { background-color: var(--primary); border: none; }
+.btn-primary:hover { background-color: darken(var(--primary), 10%); }
+
